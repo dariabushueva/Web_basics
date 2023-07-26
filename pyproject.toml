@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "web-basics"
+version = "0.1.0"
+description = "lesson_19_1"
+authors = ["Daria Bushueva <bushueva84@yandex.ry>"]
+readme = "README.md"
+packages = [{include = "web_basics"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
